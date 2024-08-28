@@ -10,6 +10,6 @@ Following the introduction of the European Sustainability Reporting Standard (ES
 1. Create a virtual environment `python -m venv venv` and install all requirements `pip install -r requirements.txt`
 2. The `data/` folder contains sustainability reports. In this study we used pre-processed reports from [Bronzini et.al 2024](https://github.com/saturnMars/derivingStructuredInsightsFromSustainabilityReportsViaLargeLanguageModels).
 3. Create `results/` folder containing `processed/` and `raw/` subfolders
-4. Extract triples with `src/extract_triples.py` and generate a knowledge graph from the report with `src/generate_kg.py`
+4. Extract triples with `src/extract_triples.py` and generate a knowledge graph from the report with `src/generate_kg.py`. Before running set up your OpenAI key in both files.
 5. Once KG is generated, you can visualize it with `src/visualize_kg.py`
    
