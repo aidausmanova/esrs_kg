@@ -1,0 +1,244 @@
+{
+    "title": "Ontosustain Ontology",
+    "id": "ontosustain",
+    "concepts": [
+      {
+        "qid": "Organization",
+        "label": "Organization"
+      },
+      {
+        "qid": "Asset",
+        "label": "Asset"
+      },
+      {
+        "qid": "Energy",
+        "label": "Energy"
+      },
+      {
+        "qid": "Emission",
+        "label": "Emission"
+      },
+      {
+        "qid": "Measurement",
+        "label": "Measurement"
+      },
+      {
+        "qid": "CalculationNode",
+        "label": "CalculationNode"
+      },
+      {
+        "qid": "ReportingValue",
+        "label": "ReportingValue"
+      },
+      {
+        "qid": "CalculatedValue",
+        "label": "CalculatedValue"
+      },
+      {
+        "qid": "CoreIndicator",
+        "label": "CoreIndicator"
+      },
+      {
+        "qid": "StandardIndicator",
+        "label": "StandardIndicator"
+      },
+      {
+        "qid": "IndicatorGRI",
+        "label": "IndicatorGRI"
+      },
+      {
+        "qid": "IndicatorESRS",
+        "label": "IndicatorESRS"
+      },
+      {
+        "qid": "Reporting",
+        "label": "Reporting"
+      },
+      {
+        "qid": "TopicalStandard",
+        "label": "TopicalStandard"
+      },
+      {
+        "qid": "Impact",
+        "label": "Impact"
+      },
+      {
+        "qid": "Risks",
+        "label": "Risks"
+      },
+      {
+        "qid": "Opportunities",
+        "label": "Opportunities"
+      },
+      {
+        "qid": "Strategy",
+        "label": "Strategy"
+      },
+      {
+        "qid": "Actions",
+        "label": "Actions"
+      },
+      {
+        "qid": "AdoptedPolicies",
+        "label": "AdoptedPolicies"
+      }
+    ],
+    "relations": [
+      {
+        "pid": "owns",
+        "label": "owns",
+        "domain": "Organization",
+        "range": "Asset"
+      },
+      {
+        "pid": "consumes",
+        "label": "consumes",
+        "domain": "Asset",
+        "range": "Energy"
+      },
+      {
+        "pid": "emits",
+        "label": "emits",
+        "domain": "Energy",
+        "range": "Emission"
+      },
+      {
+        "pid": "hasMeasurements",
+        "label": "hasMeasurements",
+        "domain": "Energy",
+        "range": "Measurement"
+      },
+      {
+        "pid": "hasMeasurements",
+        "label": "hasMeasurements",
+        "domain": "Emission",
+        "range": "Measurement"
+      },
+      {
+        "pid": "isMappedTo",
+        "label": "isMappedTo",
+        "domain": "Organization",
+        "range": "CalculationNode"
+      },
+      {
+        "pid": "hasReValue",
+        "label": "hasReValue",
+        "domain": "CalculationNode",
+        "range": "ReportingValue"
+      },
+      {
+        "pid": "hasCaValue",
+        "label": "hasCaValue",
+        "domain": "CalculationNode",
+        "range": "CalculatedValue"
+      },
+      {
+        "pid": "isValueOfSI",
+        "label": "isValueOfSI",
+        "domain": "ReportingValue",
+        "range": "StandardIndicator"
+      },
+      {
+        "pid": "isValueOfCI",
+        "label": "isValueOfCI",
+        "domain": "CalculatedValue",
+        "range": "CoreIndicator"
+      },
+      {
+        "pid": "hasReport",
+        "label": "hasReport",
+        "domain": "Organization",
+        "range": "Reporting"
+      },
+      {
+        "pid": "discloses",
+        "label": "discloses",
+        "domain": "Reporting",
+        "range": "TopicalStandard"
+      },
+      {
+        "pid": "hasAspect",
+        "label": "hasAspect",
+        "domain": "TopicalStandard",
+        "range": "Impact"
+      },
+      {
+        "pid": "hasAspect",
+        "label": "hasAspect",
+        "domain": "TopicalStandard",
+        "range": "Risks"
+      },
+      {
+        "pid": "hasAspect",
+        "label": "hasAspect",
+        "domain": "TopicalStandard",
+        "range": "Opportunities"
+      },
+      {
+        "pid": "hasAspect",
+        "label": "hasAspect",
+        "domain": "TopicalStandard",
+        "range": "Strategy"
+      },
+      {
+        "pid": "hasValue",
+        "label": "hasValue",
+        "domain": "ReportingValue",
+        "range": "decimal"
+      },
+      {
+        "pid": "hasValue",
+        "label": "hasValue",
+        "domain": "CalculatedValue",
+        "range": "decimal"
+      },
+      {
+        "pid": "hasName",
+        "label": "hasName",
+        "domain": "Reporting",
+        "range": "string"
+      },
+      {
+        "pid": "releaseDate",
+        "label": "releaseDate",
+        "domain": "Reporting",
+        "range": "date"
+      },
+      {
+        "pid": "hasDescription",
+        "label": "hasDescription",
+        "domain": "Impact",
+        "range": "string"
+      },
+      {
+        "pid": "hasDescription",
+        "label": "hasDescription",
+        "domain": "Risks",
+        "range": "string"
+      },
+      {
+        "pid": "hasDescription",
+        "label": "hasDescription",
+        "domain": "Opportunities",
+        "range": "string"
+      },
+      {
+        "pid": "hasDescription",
+        "label": "hasDescription",
+        "domain": "Strategy",
+        "range": "string"
+      },
+      {
+        "pid": "hasDescription",
+        "label": "hasDescription",
+        "domain": "Actions",
+        "range": "string"
+      },
+      {
+        "pid": "hasDescription",
+        "label": "hasDescription",
+        "domain": "AdoptedPolicies",
+        "range": "string"
+      }
+    ]
+  }

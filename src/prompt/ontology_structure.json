@@ -1,0 +1,42 @@
+[
+    {
+        "subject": "Organization",
+        "object": "Reporting",
+        "predicate": "hasReport"
+    },
+    {
+        "subject": "Reporting",
+        "object": "TopicalStandard",
+        "predicate": "discloses"
+    },
+    {
+        "subject": "TopicalStandard",
+        "object": "Impact",
+        "predicate": "hasAspect"
+    },
+    {
+        "subject": "TopicalStandard",
+        "object": "Risks",
+        "predicate": "hasAspect"
+    },
+    {
+        "subject": "TopicalStandard",
+        "object": "Opportunities",
+        "predicate": "hasAspect"
+    },
+    {
+        "subject": "TopicalStandard",
+        "object": "Strategy",
+        "predicate": "hasAspect"
+    },
+    {
+        "subject": "TopicalStandard",
+        "object": "Targets",
+        "predicate": "hasAspect"
+    },
+    {
+        "subject": "Strategy",
+        "object": "Actions",
+        "predicate": "contains"
+    }
+]
