@@ -36,4 +36,31 @@ Following the introduction of the European Sustainability Reporting Standard (ES
    ```bash
    src/visualize_kg.py
    ```
-   
+
+### Citation
+```bibtex
+@inproceedings{usmanova2024structuring,
+    title = "Structuring Sustainability Reports for Environmental Standards with {LLM}s guided by Ontology",
+    author = "Usmanova, Aida  and
+      Usbeck, Ricardo",
+    editor = "Stammbach, Dominik  and
+      Ni, Jingwei  and
+      Schimanski, Tobias  and
+      Dutia, Kalyan  and
+      Singh, Alok  and
+      Bingler, Julia  and
+      Christiaen, Christophe  and
+      Kushwaha, Neetu  and
+      Muccione, Veruska  and
+      A. Vaghefi, Saeid  and
+      Leippold, Markus",
+    booktitle = "Proceedings of the 1st Workshop on Natural Language Processing Meets Climate Change (ClimateNLP 2024)",
+    month = aug,
+    year = "2024",
+    address = "Bangkok, Thailand",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.climatenlp-1.13/",
+    doi = "10.18653/v1/2024.climatenlp-1.13",
+    pages = "168--177"
+}
+```
